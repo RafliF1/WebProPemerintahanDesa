@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pengaduan Masyarakat</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html">Beranda</a>
+      <a href="hal2.html">Tugas dan Fungsi</a>
+      <a href="hal3.html">Tantangan dan Peluang</a>
+      <a href="visimisi.html">Visi dan Misi</a>
+      <a href="form.html">Form</a>
+      <a href="kelompok.html">Kelompok</a>
+    </div>
+
+  <br><a style="margin-left: 20px; text-decoration: none"href="form.html">Kembali</a>
+
+    <h1>Form Pengaduan Masyarakat</h1>
+
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" required />
+        </div>
+        <div class="form-group">
+          <label for="alamat">Alamat:</label>
+          <input type="text" id="alamat" name="alamat" required />
+        </div>
+        <div class="form-group">
+          <label for="no_telepon">No. Telepon:</label>
+          <input type="tel" id="no_telepon" name="no_telepon" required />
+        </div>
+        <div class="form-group">
+          <label for="jenis_pengaduan">Jenis Pengaduan:</label>
+          <select id="jenis_pengaduan" name="jenis_pengaduan" required>
+            <option value="">Pilih Jenis Pengaduan</option>
+            <option value="layanan">Layanan Publik</option>
+            <option value="infrastruktur">Infrastruktur</option>
+            <option value="lingkungan">Lingkungan</option>
+            <option value="keamanan">Keamanan</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="deskripsi">Deskripsi Pengaduan:</label>
+          <textarea id="deskripsi" name="deskripsi" rows="4" required style="width: 100%"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Kirim Pengaduan" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

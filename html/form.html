@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pendaftaran Penduduk</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html">Beranda</a>
+      <a href="hal2.html">Tugas dan Fungsi</a>
+      <a href="hal3.html">Tantangan dan Peluang</a>
+      <a href="visimisi.html">Visi dan Misi</a>
+      <a href="form.html">Form</a>
+      <a href="kelompok.html">Kelompok</a>
+    </div>
+
+    <br><a style="margin-left: 20px; text-decoration: none" href="formpengaduan.html">Form Pengaduan</a>
+
+    <h1>Form Pendaftaran Penduduk</h1>
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" required />
+        </div>
+        <div class="form-group">
+          <label for="tempat_lahir">Tempat Lahir:</label>
+          <input type="text" id="tempat_lahir" name="tempat_lahir" required />
+        </div>
+        <div class="form-group">
+          <label for="tanggal_lahir">Tanggal Lahir:</label>
+          <input type="date" id="tanggal_lahir" name="tanggal_lahir" required />
+        </div>
+        <div class="form-group">
+          <label for="jenis_kelamin">Jenis Kelamin:</label>
+          <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="alamat">Alamat:</label>
+          <input type="text" id="alamat" name="alamat" required />
+        </div>
+        <div class="form-group">
+          <label for="no_ktp">No. KTP:</label>
+          <input type="text" id="no_ktp" name="no_ktp" required />
+        </div>
+        <div class="form-group">
+          <label for="no_kk">No. KK:</label>
+          <input type="text" id="no_kk" name="no_kk" required />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Daftar" />
+        </div>
+      </form>
+
+      <iframe
+        src="../html/visimisi2.html"
+        width="560"
+        height="300"
+        title="Visi Misi"
+      ></iframe>
+    </div>
+  </body>
+</html>
